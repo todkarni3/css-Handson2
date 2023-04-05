@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    border: 10px groove greenyellow;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./Mountain\ \(1\).jpg);
+}
+.uppercont{
+   display: flex;
+   justify-content: space-evenly;
+
+   
+   
+}
+.box{
+   
+    border: 5px solid red;
+    border-radius: 30px;
+    background-color: black;
+    color:white;
+    font-style: italic;
+   
+
+}
+
+.leftbox{
+    /* height: 80px;
+    width: 200px; */
+    height: 80px;
+    width: 220px;
+    margin-top: 20px;
+}
+
+.text{
+      margin-left: 10px;
+      font-style: italic;
+      line-height: 30px;
+}
+
+.midbox{
+     /* height : 40px;
+     width : 300px; */
+     width: 250px;
+     height: 40px;
+     margin-left: -340px;
+     margin-top: 30px; 
+     text-align: center;
+
+}
+
+.rightbox{
+      /* height:100px;
+      width:200px; */
+      width: 260px;
+      height: 100px;
+      margin-top: 20px;
+      margin-right: 140px;
+      text-align: center;
+
+}
+.midcont{
+    display: flex;
+}
+.circle{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    border: 5px solid grey;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+.form{
+    height: 700px;
+    width: 380px;
+    background-color: aliceblue;
+    border: 10px dashed red;
+    margin-top: 60px ;
+    margin-left: 200px;
+    color: tomato;
+    text-align: center;
+}
+h2{
+    text-align: center;
+   margin: 20px;
+   color: tomato;
+}
+.gap{
+    margin-top: 20px;
+}
+.circle-text{
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 90px;
+    /* line-height: 60px; */
+}
+.lowercont{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+  
+}
+
+.menubox{
+    width: 380px;
+    height: 220px;
+    border: 3px solid green;
+    background-color:skyblue;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color:black;
+    text-align: center;
+    
+}
+.lastbox{
+    height: 320px;
+}
+.menu{
+    height: 30px;
+    width:220px;
+    background-color: black;
+    border: 5px solid red;
+    margin-left: 580px ;
+    margin-top: 70px;
+    border-radius: 20px;
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+}
+.unorderlist{
+    margin-left: 50px;
+    margin-top: 15px;
+}
